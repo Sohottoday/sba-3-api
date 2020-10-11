@@ -94,7 +94,7 @@ class IrisModel:
                         label=cl, 
                         edgecolor='black')
 
-        plot_decision_regions(X, y, classifier=self.clf)
+        plot_decision_regions(X, y, classifier=self.clf)            # 오류는 발생하지만 작동은 됨
         plt.xlabel('sepal length [cm]')
         plt.ylabel('petal length [cm]')
         plt.legend(loc='upper left')
